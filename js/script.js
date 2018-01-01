@@ -30,8 +30,39 @@ console.log(userChoice);
 console.log(winner);
 
 //FUNCTIONS
-
-
+var moves = ["Rock", "Paper", "Scissors"];
+var randomwholeNum = Math.floor(Math.random()*moves.length);
+var computer move = (moves[randomWholeNum]);
+$("button").click(function(){
+        var inputusername = $("#usermove").val();
+}
+(if computermove === "Rock" && usermove === "Rock"){
+        $("thewiner").append("No Wins");
+}
+(if computermove === "Rock" && usermove === "Paper"){
+        $("thewiner").append("No Wins");
+}
+(if computermove === "Rock" && usermove === "Scissors"){
+        $("thewiner").append("No Wins");
+}
+(if computermove === "Paper" && usermove === "Rock"){
+        $("thewiner").append("No Wins");
+}
+(if computermove === "Paper" && usermove === "Paper"){
+        $("thewiner").append("No Wins");
+}
+(if computermove === "Paper" && usermove === "Scissors"){
+        $("thewiner").append("No Wins");
+}
+(if computermove === "Scissors" && usermove === "Rock"){
+        $("thewiner").append("No Wins");
+}
+(if computermove === "Scissors" && usermove === "Paper"){
+        $("thewiner").append("No Wins");
+}
+(if computermove === "Scissors" && usermove === "Scissors"){
+        $("thewiner").append("No Wins");
+}
 
 // DOCUMENT READY FUNCTION
 
